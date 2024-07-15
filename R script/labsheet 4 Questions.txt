@@ -1,0 +1,31 @@
+Analyze a Sample Sales Dataset: Sales_data.csv
+
+ 
+
+1.      Load the dataset
+
+2.      Check data structure
+
+3.      Find the Summary statistics
+
+4.      Check for missing values
+
+5.      Remove rows with missing values
+
+6.      Remove duplicate rows
+
+7.      Calculate the total revenue in the sales data
+
+8.      Calculate the total revenue by product
+
+9.      Find the product with the highest revenue
+
+10.  Calculate the average price
+
+11.  What was the total quantity of products sold by the company?
+
+12.  Which category had the highest revenue? How much revenue did it generate?
+
+13.  What was the average revenue per sale?
+
+14.  What was the total revenue generated in each quarter of the year? (i.e. Q1, Q2, Q3, Q4)

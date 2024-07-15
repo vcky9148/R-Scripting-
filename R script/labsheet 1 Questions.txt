@@ -1,0 +1,258 @@
+Using with and without R objects on console
+Using with R objects on console
+
+ 
+
+1.1  Create a numeric vector named "grades" containing the scores of five students: 85, 92, 78, 95, and 88. Calculate the average (mean) of the grades using the appropriate function. Display the contents of the "grades" vector.
+
+ 
+
+# Creating a numeric vector named "grades"
+
+grades = c(85, 92, 78, 95, 88)
+
+ 
+
+# Calculating the average (mean) of grades
+
+average_grade <- mean(grades)
+
+average_grade
+
+ 
+
+# Displaying the contents of the "grades" vector
+
+grades
+
+ 
+
+# Accessing the third grade using indexing
+
+third_grade <- grades[3]
+
+third_grade
+
+ 
+
+1.2 Creating Vectors:
+
+ 
+
+Create a numeric vector named "ages" with the ages of five individuals: 22, 30, 25, 19, and 28. Create a character vector named "names" with the names of the same individuals. Display both the vectors.
+
+ 
+
+1.3 Performing Arithmetic Operations:
+
+ 
+
+Create a numeric vector called "prices" with the prices of four products: 10.99, 24.75, 5.50, and 8.25. Calculate the total cost of purchasing two units of each product and store it in a new vector.
+
+1.4 Creating and Manipulating Vectors:
+
+ 
+
+·        Create a numeric vector named "temperatures" containing the temperatures of a city for a week (e.g., 75, 78, 82, ...).
+
+·        Calculate the maximum and minimum temperatures using the appropriate functions.
+
+·        Calculate the average temperature and the temperature standard deviation.
+
+·        Display the temperatures in Celsius by subtracting 32 and multiplying by 5/9.
+
+ 
+
+1.5 Vectorized Operations:
+
+ 
+
+·        Create two numeric vectors "sales" and "expenses" containing monthly sales and expenses data.
+
+·        Calculate the monthly profit by subtracting expenses from sales.
+
+·        Calculate the yearly profit by summing the monthly profits.
+
+·        Find the months with profits greater than 10000 and display their indices.
+
+ 
+
+ 
+
+Using Without R Objects on Console
+
+ 
+
+1.6 Without using a vector, calculate the sum of the same five student scores. Calculate the average of the scores without using the mean function. Display the sum and average calculated directly.
+
+ 
+
+# Calculating the sum of student scores without using a vector
+
+sum_of_scores  = 85 + 92 + 78 + 95 + 88
+
+sum_of_scores
+
+ 
+
+# Calculating the average without using the mean function
+
+average_without_vector = sum_of_scores / 5
+
+average_without_vector
+
+ 
+
+ 
+
+1.7Calculate the simple interest for a principal of 1000, rate of 5%, and time of 2 years.
+
+1.8Calculate the perimeter of a rectangle with length 8 units and width 5 units.
+
+1.9Calculate the area of a triangle with base 10 units and height 6 units.
+
+1.10   	Convert 60 inches to feet.
+
+1.11   	Solve the equation 2x+5=17 for given x
+
+install.packages("pracma")
+
+library(pracma)
+
+#Solve the equation 2x + 5 = 17 for x
+
+
+
+equation <- function(x) {
+
+  result <- 2*x + 5 - 17
+
+  return(result)
+
+}
+
+
+# Use uniroot to find the root (solution)
+
+solution <- uniroot(equation, interval = c(-100, 100))
+
+
+# Print the solution
+
+cat("The solution for x is:", solution$root, "\n")
+
+
+1.12   	Calculate the volume of a cylinder with radius 5 units and height 10 units.
+
+ 
+
+ 
+
+2.     Using mathematical functions on console
+
+ 
+
+ 
+
+2.1  Calculate the natural logarithm (base e) of 10.
+
+2.2  Calculate the absolute value of -7.
+
+2.3  Round 3.75 to the nearest integer.
+
+2.4  Calculate the square root of 25.
+
+2.5  Generate a random integer between 1 and 10.
+
+ 
+
+ 
+
+3.     Write an R script, to create R objects for calculator
+
+ 
+
+# Define a function for addition
+
+add <- function(a, b) {
+
+  result <- a + b
+
+  return(result)
+
+}
+
+ 
+
+# Define a function for subtraction
+
+subtract <- function(a, b) {
+
+  result <- a - b
+
+  return(result)
+
+}
+
+ 
+
+# Define a function for multiplication
+
+multiply <- function(a, b) {
+
+  result <- a * b
+
+  return(result)
+
+}
+
+ 
+
+# Define a function for division
+
+divide <- function(a, b) {
+
+  if (b == 0) {
+
+	return("Cannot divide by zero!")
+
+  }
+
+  result <- a / b
+
+  return(result)
+
+}
+
+ 
+
+# Test the calculator functions
+
+num1 <- 10
+
+num2 <- 5
+
+ 
+
+add_result <- add(num1, num2)
+
+print(paste("Addition:", num1, "+", num2, "=", add_result))
+
+ 
+
+subtract_result <- subtract(num1, num2)
+
+print(paste("Subtraction:", num1, "-", num2, "=", subtract_result))
+
+ 
+
+multiply_result <- multiply(num1, num2)
+
+print(paste("Multiplication:", num1, "*", num2, "=", multiply_result))
+
+ 
+
+divide_result <- divide(num1, num2)
+
+print(paste("Division:", num1, "/", num2, "=", divide_result))
+

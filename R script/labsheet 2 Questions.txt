@@ -1,0 +1,55 @@
+Data Structures in R  
+
+a. Vectors: creating, indexing, and operations
+
+b. Matrices and arrays
+
+c. Lists
+
+d. character vectors
+
+a.	Vectors: creating, indexing, and operations
+
+ 
+
+1.  	Create a numeric vector containing the 10 elements and display the same.
+
+2.  	Given a numeric vector, extract and print the values at even-numbered indices.
+
+3.  	Take two numeric vectors of the same length and perform element-wise addition and subtraction.
+
+4.  	Calculate the mean and median of a numeric vector containing test scores.
+
+ 
+
+b.        Matrices and arrays
+
+1.  	Perform Matrix addition and subtraction using R Programming.
+
+2.  	Write a program to create a 2D array with random integers and display it.
+
+3.  	Write a program to access and print specific elements, rows, and columns of a 2D array.
+
+4.  	Calculate and display the mean, median, and standard deviation of a 2D array.
+
+ 
+
+c.         Lists
+
+1.  	Create a program that constructs a list with elements of different data types (numeric, character, logical).
+
+2.  	Write a program that accesses and prints specific element of a list.
+
+3.  	Create a program that calculates the length of a list and displays it.
+
+ 
+
+d.        Character vectors
+
+ 
+
+1.  	Create a program that constructs a character vector from a sequence of strings.
+
+2.  	Write a program to find and display the length of a character vector.
+
+3.  	Develop a program to check if a specific value exists in a character vector.

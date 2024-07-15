@@ -1,0 +1,23 @@
+Multiple regression model
+
+Implement the multiple regression model for the given dataset
+
+ 
+
+1.     Install and load necessary packages  (caret, e1071)
+
+2.     Load mtcars dataset
+
+3.     Explore the dataset
+
+4.     Split the data into training (70%) and testing (30%) sets
+
+5.     Build a regression model to predict miles per gallon (`mpg`) based on multiple features such as weight (wt), horsepower (hp) and the number of cylinders (cyl).
+
+6.     Make predictions on the test set
+
+7.     Find MSE and RMSE
+
+8.     Evaluate the model
+
+9.     Print the evaluation metrics

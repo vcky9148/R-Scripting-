@@ -1,0 +1,45 @@
+Data Transformation with dplyr
+
+ 
+
+ 
+
+Analyze a Sample Sales Dataset: Sales_data.csv
+
+ 
+
+ 
+
+1.      Load the dataset
+
+2.      Data Exploration:  View the first few rows of the dataset using functions like head() or glimpse() to understand its structure.
+
+3.      Selecting Data - Select specific columns from the dataset (e.g., date and revenue) using the dplyr package's select() function.
+
+Filtering Data - select all rows with revenue greater than 1000 using the dplyr package's filter() function.
+
+Arranging Data - sort by date in ascending or descending order using the dplyr package's arrange() function.
+
+Group the data by a categorical variable (e.g., category) using the dplyr package's group_by() function.
+
+Calculate summary statistics within each group (e.g., total revenue per category) using functions like summarize().
+
+Joining Data
+
+8.1  Create Two dataframe:
+
+df1 <- data.frame(ID = 1:5, Name = c("Alice", "Bob", "Charlie", "David", "Eve"))
+
+df2 <- data.frame(ID = 3:7, Score = c(95, 87, 78, 91, 82))
+
+ 
+
+8.2 Implement inner_join() and full_join() function to join two dataframes.
+
+ 
+
+9.  	Merging Data Sets
+
+9.1  Create Two dataframe
+
+9.2  Merge data frames by the 'ID' column

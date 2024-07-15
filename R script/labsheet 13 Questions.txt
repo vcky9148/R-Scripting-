@@ -1,0 +1,17 @@
+Classification Algorithms - Evaluate the performance of Naive Bayes classifier using R.
+
+ 
+
+1.     Install and load necessary packages  (caret, e1071)
+
+2.     Load iris dataset
+
+3.     Explore the dataset
+
+4.     Split the data into training (70%) and testing (30%) sets
+
+5.     Build a Naive Bayes classification model
+
+6.     Make predictions on the test set
+
+7.     Print the evaluation metrics.

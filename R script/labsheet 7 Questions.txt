@@ -1,0 +1,31 @@
+Basic Statistics with R
+
+ 
+
+ 
+
+Dataset: Sales_data.csv
+
+ 
+
+ 
+
+1.      Load the dataset
+
+2.      Calculate the mean (average) of the 'price,' 'quantity,' and 'revenue' columns separately to understand the central tendency of these variables.
+
+3.      Calculate the median (middle value) of the 'price,' 'quantity,' and 'revenue' columns to understand the data's distribution.
+
+4.      Compute the variance of 'price,' 'quantity,' and 'revenue' to measure the spread or dispersion of these variables. A higher variance indicates more significant variability.
+
+5.      Calculate the standard deviation of 'price,' 'quantity,' and 'revenue' to quantify the extent of data dispersion around the mean.
+
+6.      Generate summary statistics for each numerical column, including count, mean, standard deviation, minimum, and maximum values.
+
+7.      Explore Date Information: If 'date' is in a date format, calculate the earliest and latest date in the dataset to understand the date range covered by the data.
+
+8.      Correlation Analysis: Compute correlation coefficients (e.g., Pearson's correlation) between 'price,' 'quantity,' and 'revenue' to identify any relationships or dependencies between these variables.
+
+9.      Outlier Detection: Use the median and interquartile range (IQR) to detect outliers in 'price,' 'quantity,' and 'revenue.' Values significantly outside the IQR may be considered outliers.
+
+10.  Frequency Distributions: Create frequency distributions for 'price,' 'quantity,' and 'revenue' to understand the distribution of values within each variable.

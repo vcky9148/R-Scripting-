@@ -1,0 +1,27 @@
+Data Visualization using ggplot2
+
+ 
+
+Analyze a Sample Sales Dataset: Sales_data.csv
+
+ 
+
+1.      Load the dataset
+
+2.      Check data structure
+
+3.      Find the Summary statistics
+
+4.  	Scatter Plot - Create a scatter plot to visualize the relationship between 'quantity' and 'revenue'.
+
+5.  	Bar Plot - Create a bar plot to display the total revenue for each 'category'.
+
+6.  	Line Plot - Create a line plot to show the trend of 'revenue' over time.
+
+7.  	Histogram - Create a histogram to visualize the distribution of 'price'.
+
+8.  	Pie Chart - Create a pie chart to display the percentage distribution of products by 'category'.
+
+9.  	Stacked Bar Plot - Create a stacked bar plot to show how the 'revenue' is distributed among different 'categories' over time.
+
+10. Box Plot - Create a box plot to visualize the distribution of 'revenue' within each 'category'. 

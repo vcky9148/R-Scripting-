@@ -1,0 +1,27 @@
+LAB SHEET – 3 (13-02-2023)   - dataset - sales data
+
+ 
+
+3. Reading data from CSV, Data preprocessing and cleaning
+
+ 
+
+Implement the following operation in an appropriate dataset.
+
+ 
+
+1.      Load the Dataset
+
+2.      Explore the dataset to understand its structure (head, summary etc)
+
+3.      Identify the missing values
+
+4.      Count missing values in each column
+
+5.      Handle the Missing Data by applying suitable techniques
+
+6.      Apply Min-Max Scaling (Normalization to a range of [0, 1]) and display the output.
+
+7.      Apply Z-score Normalization (Standardization with mean=0 and std=1) and display the result
+
+      8. Apply Robust Scaler (Robust to outliers) 

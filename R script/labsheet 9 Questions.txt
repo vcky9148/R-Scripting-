@@ -1,0 +1,27 @@
+Introduction to Machine Learning with R
+
+ 
+
+
+1.     Install and load necessary packages  (caret, e1071)
+
+2.     Load iris dataset
+
+3.     Split the data into training (70%) and testing (30%) sets
+
+4.     Build a SVM model
+
+5.     Make predictions on the test set
+
+6.     Evaluate the model by displaying confusion matrix
+
+7.     Print the accuracy for test set 20%, 40% and 50 % also
+
+8.     Provide your split ratio recommendation with justification.
+
+Question:
+
+9.     Define model accuracy and provide the formula for calculating it.
+
+10. Define sensitivity and specificity along with their respective formulas. 
+

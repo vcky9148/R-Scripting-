@@ -1,0 +1,23 @@
+Regression model
+
+Create a regression model for a given dataset
+
+ 
+
+1.     Install and load necessary packages  (caret, e1071)
+
+2.     Load mtcars dataset
+
+3.     Explore the dataset
+
+4.     Check for missing values
+
+5.     Split the data into training (70%) and testing (30%) sets
+
+6.     Build a regression model (Build a linear regression model: Use the `lm` function to create a linear regression model. In this program, predict the miles per gallon (`mpg`) based on the weight (`wt`) of the cars.)
+
+7.     Make predictions on the test set
+
+8.     Evaluate the model
+
+9. Print the evaluation metrics 

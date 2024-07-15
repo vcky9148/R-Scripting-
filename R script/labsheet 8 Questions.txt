@@ -1,0 +1,29 @@
+Correlation and covariance
+
+ 
+
+ 
+
+ 
+
+1.      Load the dataset (iris dataset)
+
+2.       Find the correlation matrix
+
+3.      Plot the correlation plot on Dataset and visualize giving an overview of relationships among data on iris data.
+
+Analysis:
+
+ 
+
+1.      How does the color scale indicate the strength and direction of the correlation between variables?
+
+2.      Why are the diagonal elements of the correlation matrix always 1?
+
+3.      Choose a pair of variables with a strong positive correlation. What does this correlation suggest about the relationship between those variables?
+
+4.      Choose a pair of variables with a strong negative correlation. What does this correlation suggest about the relationship between those variables?
+
+5.      Identify a pair of variables with a light or neutral color in the plot. What does this color indicate about the correlation between those variables?
+
+6.      Based on the correlation plot, are there any pairs of variables that might indicate multicollinearity?
